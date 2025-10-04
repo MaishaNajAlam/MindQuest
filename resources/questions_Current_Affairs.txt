@@ -1,0 +1,10 @@
+Who is the current Secretary-General of the United Nations?,Antonio Guterres,Ban Ki-moon,Kofi Annan,Angela Merkel,Antonio Guterres
+What is the capital of Ukraine?,Kiev,Moscow,Warsaw,Berlin,Kiev
+Which country hosted the 2024 Olympics?,France,USA,Japan,Brazil,France
+What is the name of the latest iPhone model released by Apple?,iPhone 16,iPhone 13,iPhone 14,iPhone 15,iPhone 16
+Which country recently landed a spacecraft on the Moon's south pole?,USA,Russia,India,China,India
+Who is the current CEO of Tesla?,Jeff Bezos,Bill Gates,Elon Musk,Mark Zuckerberg,Elon Musk
+What is the name of the latest AI model released by OpenAI?,ChatGPT-3,ChatGPT-4,ChatGPT-5,GPT-4,GPT-4
+Which country won the 2024 Cricket World Cup?,India,Australia,England,Pakistan,India
+What is the largest tech company in terms of market value?,Microsoft,Apple,Google,Amazon,Apple
+What was the biggest climate summit of 2024 called?,COP25,COP26,COP28,COP30,COP28

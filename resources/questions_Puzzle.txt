@@ -1,0 +1,12 @@
+A farmer has 17 sheep and all but 9 run away. How many are left?,8,9,10,11,9
+You see a house with all four sides facing south and a bear walks by.What color is the bear?,Brown,Black,White,Grey,White
+A father is 40 years old. His son is 10 years old. How many years until the father is twice his son’s age?,5,10,15,20,10
+What number should come next: 1 4 9 16 __?,20,24,25,30,25
+How many months have 28 days?,1,6,9,12,12
+I speak without a mouth and hear without ears. I have no body but I come alive with wind. What am I?,Echo,Shadow,Reflection,Light,Echo
+I am a word. If you remove one letter from me I still remain the same. What word am I?,Queue,Book,Phone,Chair,Queue
+A man pushes his car to a hotel and tells the owner he’s bankrupt. What was he playing?,Poker,Chess,Monopoly,Scrabble,Monopoly
+I have keys but open no locks. I have space but no room. You can enter but you can’t go outside. What am I?,Book,Computer,Keyboard,Map,Keyboard
+What has legs but doesn’t walk?,Dog, Table, Robot, Tree, Table
+The more you share me the less you have. What am I?,Money, A secret, A joke, Time, A secret
+I get sharper the more you use me. What am I?,Pencil, Knife, Your brain, Saw, Your brain

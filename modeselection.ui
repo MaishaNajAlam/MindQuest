@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ModeSelection</class>
+ <widget class="QMainWindow" name="ModeSelection">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);
+QRadioButton {
+    font-size: 12pt;
+    color: rgb(50, 30, 100);
+    spacing: 8px;
+}
+QMessageBox {
+    color: rgb(50, 50, 50); /* Dark font color */
+    background-color: rgb(255, 255, 255); /* White background */
+    font-size: 12pt;
+    font-family: &quot;Arial&quot;, sans-serif;
+}
+
+QMessageBox QPushButton {
+    background-color: rgb(220, 220, 220); /* Button background color */
+    color: rgb(50, 50, 50); /* Dark font color for buttons */
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+
+QMessageBox QPushButton:hover {
+    background-color: rgb(180, 180, 180); /* Button hover effect */
+}
+
+QMessageBox QLabel {
+    color: rgb(50, 50, 50); /* Dark color for labels inside message box */
+}
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">QRadioButton {
+    font-size: 12pt;
+    color: rgb(50, 30, 100);
+    spacing: 8px;
+}</string>
+   </property>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>80</y>
+      <width>356</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>36</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">selection-color: rgb(104, 90, 180);</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; color:#404f96;&quot;&gt;MINDQUEST&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>220</y>
+      <width>411</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QGroupBox#groupBox {
+    background-color: white;
+    border: 2px solid rgb(120, 100, 200); 
+    border-radius: 10px;
+    font-size: 14pt;
+    font-weight: bold;
+    color: rgb(80, 60, 160); 
+}
+/* Style for radio buttons */
+QRadioButton {
+    font-size: 14pt; /* Bigger text */
+    color: rgb(50, 30, 100);
+    spacing: 10px;
+}
+
+/* Make radio button indicator (circle) larger */
+QRadioButton::indicator {
+    width: 20px;  /* Adjust width */
+    height: 20px; /* Adjust height */
+    border-radius: 10px; /* Ensures a perfect circle */
+    border: 2px solid rgb(120, 100, 200); /* Purple border */
+    background-color: white;
+}
+
+/* When hovered */
+QRadioButton::indicator:hover {
+    border: 2px solid rgb(140, 120, 220);
+}
+
+/* When checked */
+QRadioButton::indicator:checked {
+    background-color: rgb(120, 100, 200); /* Purple fill */
+    border: 2px solid rgb(80, 60, 160);
+}
+QMessageBox {
+    color: rgb(50, 50, 50); /* Dark font color */
+    background-color: black;
+    font-size: 12pt;
+    font-family: &quot;Arial&quot;, sans-serif;
+}
+
+</string>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QWidget" name="">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>70</y>
+       <width>321</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QRadioButton" name="GameButton">
+        <property name="font">
+         <font>
+          <pointsize>14</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Game</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="TestButton">
+        <property name="font">
+         <font>
+          <pointsize>14</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Test</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="PracticeButton">
+        <property name="font">
+         <font>
+          <pointsize>14</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Practice</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,10 @@
+What is the largest planet in the Solar System?,Earth,Mars,Jupiter,Saturn,Jupiter
+What galaxy do we live in?,Andromeda,Milky Way,Triangulum,Messier 87,Milky Way
+Which planet has rings?,Mars,Venus,Saturn,Jupiter,Saturn
+What is the name of the closest star to Earth?,Proxima Centauri,Alpha Centauri,Sirius,The Sun,The Sun
+What is the smallest planet in the Solar System?,Venus,Mars,Mercury,Pluto,Mercury
+What is a black hole?,A star,A planet,A collapsed star,A comet,A collapsed star
+Which planet is known as the "Morning Star"?,Mars,Venus,Jupiter,Saturn,Venus
+What is the term for a group of stars forming a pattern?,Galaxy,Constellation,Nebula,Meteor Shower,Constellation
+What planet is known as Earth's twin?,Mars,Venus,Jupiter,Neptune,Venus
+What is the name of NASA's Mars rover?,Curiosity,Pathfinder,Opportunity,Spirit,Curiosity

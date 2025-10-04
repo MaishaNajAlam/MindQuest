@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>adminWindow</class>
+ <widget class="QMainWindow" name="adminWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox_adminmenu">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>90</y>
+      <width>591</width>
+      <height>411</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QMainWindow {
+    background-color: rgb(240, 240, 250); /* Light purple background */
+}
+
+QGroupBox {
+    background-color: rgb(255, 255, 255); /* White background */
+    border: 2px solid rgb(104, 90, 180); /* Purple border */
+    border-radius: 10px;
+    padding: 10px;
+}
+
+QLabel {
+    font-size: 14pt;
+    color: rgb(50, 30, 100); /* Dark purple text */
+}
+
+QLabel#questionLabel {
+    font-size: 16pt;
+    font-weight: bold;
+    color: rgb(50, 30, 100); /* Dark purple */
+}
+
+QPushButton {
+    background-color: rgb(104, 90, 180); /* Purple background */
+    color: white;
+    font-size: 12pt;
+    padding: 6px 12px;
+    border-radius: 5px;
+}
+
+QPushButton:hover {
+    background-color: rgb(120, 110, 200); /* Lighter purple on hover */
+}
+
+QPushButton:pressed {
+    background-color: rgb(80, 60, 160); /* Darker purple on press */
+}
+
+QPushButton#button50, QPushButton#buttonSwap, QPushButton#submit {
+    background-color: rgb(104, 90, 180); /* Purple background */
+}
+
+QPushButton#button50:hover, QPushButton#buttonSwap:hover, QPushButton#submit:hover {
+    background-color: rgb(120, 110, 200);
+}
+
+
+QRadioButton {
+    font-size: 12pt;
+    color: rgb(50, 30, 100); /* Dark purple */
+}
+
+QRadioButton::indicator {
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgb(104, 90, 180); /* Purple border for circle */
+    border-radius: 10px;
+    background-color: white;
+}
+
+QRadioButton::indicator:checked {
+    background-color: rgb(104, 90, 180); /* Purple circle when checked */
+}
+/
+QProgressBar {
+    border: 1px solid rgb(104, 90, 180); /* Purple border */
+    border-radius: 5px;
+    background-color: rgb(240, 240, 250); /* Light purple background */
+    height: 20px;
+}
+
+QProgressBar::chunk {
+    background-color: rgb(104, 90, 180); /* Purple progress chunk */
+    width: 1px;
+}
+
+QTableWidget {
+    background-color: rgb(255, 255, 255); /* White background */
+    border: 1px solid rgb(104, 90, 180); /* Purple border */
+    gridline-color: rgb(104, 90, 180); /* Purple grid lines */
+    font-size: 12pt;
+    color: rgb(50, 30, 100); /* Dark purple text */
+}
+
+QTableWidget::horizontalHeader {
+    background-color: rgb(104, 90, 180); /* Purple header */
+    color: white;
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+QPushButton#closeButton {
+    background-color: rgb(104, 90, 180); /* Purple background */
+    color: white;
+    font-size: 12pt;
+    padding: 6px 12px;
+    border-radius: 5px;
+}
+
+QPushButton#closeButton:hover {
+    background-color: rgb(120, 110, 200);
+}
+
+QPushButton#closeButton:pressed {
+    background-color: rgb(80, 60, 160);
+}
+
+QMenuBar {
+    background-color: rgb(104, 90, 180); /* Purple menu bar */
+    color: white;
+}
+
+QStatusBar {
+    background-color: rgb(240, 240, 250); /* Light purple */
+    color: rgb(50, 30, 100); /* Dark purple text */
+}
+
+QLabel#scoreLabel, QLabel#rankLabel {
+    font-size: 14pt;
+    color: rgb(50, 30, 100); /* Dark purple */
+}
+
+QLabel#timeLabel {
+    font-size: 12pt;
+    color: rgb(50, 30, 100); /* Dark purple */
+    font-weight: bold;
+    background-color: rgb(240, 240, 250); /* Light purple background */
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+</string>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>70</y>
+       <width>341</width>
+       <height>271</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QPushButton" name="pushButton_addquestion">
+        <property name="text">
+         <string>Add Question</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_addtopic">
+        <property name="text">
+         <string>Add Topic</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_deletequestion">
+        <property name="text">
+         <string>Delete Question</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_deletetopic">
+        <property name="text">
+         <string>Delete Topic</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>244</x>
+       <y>350</y>
+       <width>81</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>LogOut</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

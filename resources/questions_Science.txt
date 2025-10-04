@@ -1,0 +1,15 @@
+What is the most abundant gas in Earth’s atmosphere?,Oxygen,Nitrogen,Carbon Dioxide,Hydrogen,Nitrogen
+Which planet has the most moons in our solar system?,Mars,Earth,Saturn,Jupiter,Saturn
+What is the SI unit of force?,Newton,Joule,Pascal,Watt,Newton
+What is the chemical symbol for gold?,Ag,Fe,Au,Pt,Au
+What is the process by which plants make their own food?,Respiration,Fermentation,Photosynthesis,Transpiration,Photosynthesis
+Which vitamin is produced when our skin is exposed to sunlight?,Vitamin A,Vitamin B,Vitamin C,Vitamin D,Vitamin D
+What is the smallest bone in the human body?,Femur,Radius,Stapes,Tibia,Stapes
+Who proposed the theory of general relativity?,Isaac Newton,Albert Einstein,Nikola Tesla,Galileo Galilei,Albert Einstein
+What is the powerhouse of the cell?,Nucleus,Ribosome,Mitochondria,Lysosome,Mitochondria
+What is the boiling point of water at standard atmospheric pressure in Celsius?,50,100,150,200,100
+Which gas is commonly used in balloons to make them float?,Oxygen,Helium,Nitrogen,Carbon Dioxide,Helium
+What is the hardest natural substance on Earth?,Gold,Iron,Diamond,Quartz,Diamond
+What type of blood cells help fight infections?,Red Blood Cells,Platelets,White Blood Cells,Plasma,White Blood Cells
+What is the chemical name of table salt?,Sodium Chloride,Potassium Iodide,Magnesium Sulfate,Calcium Carbonate,Sodium Chloride
+What is the speed of light in vacuum (approximate in m/s)?,2.5×10^8,3.0×10^8,3.5×10^8,4.0×10^8,3.0×10^8

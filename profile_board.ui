@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>profile_board</class>
+ <widget class="QMainWindow" name="profile_board">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>775</width>
+    <height>531</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>10</y>
+      <width>711</width>
+      <height>501</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    color: rgb(104, 90, 180); /* Main purple */
+    font-size: 12pt;
+    font-weight: bold;
+}
+QGroupBox {
+    background-color: rgb(255, 255, 255); /* White background */
+    border: 2px solid rgb(104, 90, 180); /* Purple border */
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Style the leaderboard table */
+QTableWidget {
+    background-color: rgb(255, 255, 255); /* White background */
+    border: 1px solid rgb(104, 90, 180); /* Purple border */
+    gridline-color: rgb(104, 90, 180); /* Grid lines */
+    font-size: 12pt;
+    color: rgb(50, 30, 100); /* Dark purple text */
+}
+
+/* Style the table headers */
+QTableWidget::horizontalHeader {
+    background-color: rgb(104, 90, 180); /* Purple header */
+    color: white;
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+/* Style the close button */
+QPushButton#closeButton {
+    background-color: rgb(104, 90, 180); /* Purple background */
+    color: white;
+    font-size: 12pt;
+    padding: 6px 12px;
+    border-radius: 5px;
+}
+
+/* Button hover effect */
+QPushButton#closeButton:hover {
+    background-color: rgb(120, 110, 200);
+}
+
+/* Button pressed effect */
+QPushButton#closeButton:pressed {
+    background-color: rgb(80, 60, 160);
+}
+
+/* Style the rank label */
+QLabel#rankLabel {
+    font-size: 14pt;
+    color: rgb(50, 30, 100); /* Dark purple text */
+}
+
+/* Style the menu bar */
+QMenuBar {
+    background-color: rgb(104, 90, 180); /* Purple menu bar */
+    color: white;
+}
+
+/* Style the status bar */
+QStatusBar {
+    background-color: rgb(240, 240, 250); /* Light purple */
+    color: rgb(50, 30, 100); /* Dark purple text */
+}
+</string>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QTableWidget" name="leaderboardTable">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>80</y>
+       <width>251</width>
+       <height>361</height>
+      </rect>
+     </property>
+     <column>
+      <property name="text">
+       <string>Player Name</string>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Score</string>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+     </column>
+    </widget>
+    <widget class="QPushButton" name="closeButton">
+     <property name="geometry">
+      <rect>
+       <x>590</x>
+       <y>440</y>
+       <width>101</width>
+       <height>39</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Close</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>30</y>
+       <width>171</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>LEADERBOARD</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>775</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

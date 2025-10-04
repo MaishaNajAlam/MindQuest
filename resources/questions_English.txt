@@ -1,0 +1,8 @@
+What is the plural of "child"?,Childs,Childes,Children,Childers,Children
+What is a synonym for "happy"?,Sad,Excited,Joyful,Angry,Joyful
+What is the opposite of "brave"?,Cowardly,Strong,Kind,Wise,Cowardly
+Which word is a noun?,Run,Beautiful,Happiness,Quickly,Happiness
+What is the past tense of "go"?,Goes,Gone,Going,Went,Went
+What is a verb?,A person,A place,A thing,An action,An action
+What is a collective noun for "cows"?,Pack,School,Herd,Flock,Herd
+What is a synonym for "fast"?,Slow,Quick,Heavy,Light,Quick

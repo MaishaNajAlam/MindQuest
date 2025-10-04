@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GameWindow</class>
+ <widget class="QMainWindow" name="GameWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);
+/* Style the QMessageBox itself */
+QMessageBox {
+    background-color: rgb(240, 240, 250); /* Light purple background */
+    border: 2px solid rgb(104, 90, 180); /* Purple border */
+    border-radius: 10px;
+}
+
+/* Style the text inside the message box */
+QMessageBox QLabel {
+    font-size: 14pt;
+    color: rgb(50, 30, 100); /* Dark purple text */
+    font-weight: bold;
+}
+
+/* Style the buttons inside the message box */
+QMessageBox QPushButton {
+    background-color: rgb(104, 90, 180); /* Purple button */
+    color: white;
+    font-size: 12pt;
+    padding: 6px 12px;
+    border-radius: 5px;
+}
+
+/* Button hover effect */
+QMessageBox QPushButton:hover {
+    background-color: rgb(120, 110, 200);
+}
+
+/* Button when pressed */
+QMessageBox QPushButton:pressed {
+    background-color: rgb(80, 60, 160);
+}
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>40</y>
+      <width>671</width>
+      <height>471</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QGroupBox#groupBox {
+    background-color:white;
+    border: 2px solid rgb(120, 100, 200); /* Purple border */
+    border-radius: 10px;
+    font-size: 14pt;
+    font-weight: bold;
+    color: rgb(80, 60, 160); /* Deep purple text */
+}
+
+/* Style for the question label */
+QLabel#questionLabel {
+    font-size: 16pt;
+    font-weight: bold;
+    color: rgb(80, 60, 160);
+    background-color: transparent;
+}
+
+/* Style for radio buttons */
+QRadioButton {
+    font-size: 14pt; /* Bigger text */
+    color: rgb(50, 30, 100);
+    spacing: 10px;
+}
+
+/* Make radio button indicator (circle) larger */
+QRadioButton::indicator {
+    width: 20px;  /* Adjust width */
+    height: 20px; /* Adjust height */
+    border-radius: 10px; /* Ensures a perfect circle */
+    border: 2px solid rgb(120, 100, 200); /* Purple border */
+    background-color: white;
+}
+
+/* When hovered */
+QRadioButton::indicator:hover {
+    border: 2px solid rgb(140, 120, 220);
+}
+
+
+QRadioButton::indicator:checked {
+    background-color: rgb(120, 100, 200); /* Purple fill */
+    border: 2px solid rgb(80, 60, 160);
+}
+
+/* Hover effect for radio buttons */
+QRadioButton:hover {
+    color: rgb(80, 60, 160);
+}
+
+
+QLabel#scoreLabel {
+   border: 2px solid rgb(120, 100, 200);
+    font-size: 12pt;
+    font-weight: bold;
+    color: rgb(120, 100, 200);
+}
+
+/* Style for buttons (50/50, Swap Q, Submit) */
+QPushButton {
+    background-color: rgb(120, 100, 200); /* Purple */
+    color: white;
+    font-size: 12pt;
+    font-weight: bold;
+    border: 2px solid rgb(90, 80, 160);
+    border-radius: 8px;
+    padding: 6px;
+}
+
+/* Hover effect for buttons */
+QPushButton:hover {
+    background-color: rgb(140, 120, 220); /* Lighter purple */
+}
+
+/* Pressed effect for buttons */
+QPushButton:pressed {
+    background-color: rgb(100, 80, 180); /* Darker purple */
+    border: 2px solid rgb(80, 70, 150);
+}
+
+/* Style for progress bar */
+QProgressBar {
+    border: 2px solid rgb(90, 80, 160);
+    border-radius: 5px;
+    background-color: rgb(220, 220, 255);
+    text-align: center;
+    color: rgb(50, 30, 100);
+}
+
+/* Progress bar chunk (fill) */
+QProgressBar::chunk {
+    background-color: rgb(120, 100, 200);
+    border-radius: 5px;
+}</string>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QLabel" name="questionLabel">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>50</y>
+       <width>561</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Q:</string>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QProgressBar" name="progressBar">
+     <property name="geometry">
+      <rect>
+       <x>540</x>
+       <y>10</y>
+       <width>118</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="value">
+      <number>24</number>
+     </property>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>190</y>
+       <width>571</width>
+       <height>75</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QRadioButton" name="op1">
+          <property name="text">
+           <string>option1</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="op3">
+          <property name="text">
+           <string>option3</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QRadioButton" name="op2">
+          <property name="text">
+           <string>option2</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="op4">
+          <property name="text">
+           <string>option4</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>320</y>
+       <width>89</width>
+       <height>95</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_3">
+      <item>
+       <widget class="QPushButton" name="button50">
+        <property name="text">
+         <string>50/50</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="buttonSwap">
+        <property name="text">
+         <string>Swap Q</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>520</x>
+       <y>330</y>
+       <width>101</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_4">
+      <item>
+       <widget class="QPushButton" name="submit">
+        <property name="text">
+         <string>Submit</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="scoreLabel">
+        <property name="styleSheet">
+         <string notr="true">border-color: rgb(170, 0, 255);</string>
+        </property>
+        <property name="text">
+         <string>Score</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

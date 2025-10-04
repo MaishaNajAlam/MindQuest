@@ -1,0 +1,9 @@
+What OOP principle is used to hide implementation details?,Encapsulation,Abstraction,Polymorphism,Inheritance,Abstraction
+Which OOP concept allows one class to inherit from another?,Encapsulation,Polymorphism,Abstraction,Inheritance,Inheritance
+What is the ability of an object to take multiple forms called?,Encapsulation,Polymorphism,Abstraction,Composition,Polymorphism
+Which OOP concept binds data and methods together?,Inheritance,Encapsulation,Polymorphism,Abstraction,Encapsulation
+What is the default access specifier for class members in C++?,Public,Private,Protected,Static,Private
+Which keyword is used to create an object in C++?,class,new,struct,object,new
+What is the function called that is invoked when an object is created?,Destructor,Method,Constructor,Operator,Constructor
+What is the process of defining multiple methods with the same name but different parameters?,Overriding,Overloading,Encapsulation,Abstraction,Overloading
+What is the special function that destroys an object in C++?,Constructor,Destructor,Delete,Remove,Destructor

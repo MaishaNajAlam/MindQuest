@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TopicSelection</class>
+ <widget class="QMainWindow" name="TopicSelection">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <bold>true</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>70</y>
+      <width>701</width>
+      <height>431</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">/* Main window background */
+QMainWindow {
+    background-color: rgb(240, 240, 250); /* Light purple background */
+}
+QComboBox {
+    background-color: rgb(240, 240, 240); /* Light gray background */
+    border: 1px solid rgb(180, 180, 180); /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 5px;
+    color: rgb(50, 50, 50); /* Dark font color */
+    font-size: 12pt;
+    font-family: &quot;Arial&quot;, sans-serif;
+}
+
+QComboBox::drop-down {
+    background-color: rgb(240, 240, 240); /* Background for the dropdown */
+    border: none;
+    width: 20px; /* Adjust width of the drop-down button */
+}
+
+QComboBox::down-arrow {
+    image: url(:/icons/down_arrow.png); /* Customize the arrow image */
+}
+
+QComboBox QAbstractItemView {
+    background-color: rgb(255, 255, 255); /* White background for the dropdown list */
+    border: 1px solid rgb(180, 180, 180); /* Light border */
+    color: rgb(50, 50, 50); /* Dark font color for items */
+    font-size: 12pt;
+}
+
+QComboBox QAbstractItemView::item {
+    padding: 5px;
+    background-color: rgb(240, 240, 240); /* Item background color */
+}
+
+QComboBox QAbstractItemView::item:selected {
+    background-color: rgb(180, 180, 180); /* Highlighted item background color */
+    color: white; /* White text color for selected items */
+}
+
+/* Group boxes */
+QGroupBox {
+    background-color: rgb(255, 255, 255); /* White background */
+    border: 2px solid rgb(104, 90, 180); /* Purple border */
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* QLabel - general label styling */
+QLabel {
+    font-size: 14pt;
+    color: rgb(50, 30, 100); /* Dark purple text */
+}
+
+/* Specific label inside 'GameWindow' */
+QLabel#questionLabel {
+    font-size: 16pt;
+    font-weight: bold;
+    color: rgb(50, 30, 100); /* Dark purple */
+}
+
+/* QPushButton styling */
+QPushButton {
+    background-color: rgb(104, 90, 180); /* Purple background */
+    color: white;
+    font-size: 12pt;
+    padding: 6px 12px;
+    border-radius: 5px;
+}
+
+/* Hover and pressed states for buttons */
+QPushButton:hover {
+    background-color: rgb(120, 110, 200); /* Lighter purple on hover */
+}
+
+QPushButton:pressed {
+    background-color: rgb(80, 60, 160); /* Darker purple on press */
+}
+
+/* Specific button styling for 'GameWindow' */
+QPushButton#button50, QPushButton#buttonSwap, QPushButton#submit {
+    background-color: rgb(104, 90, 180); /* Purple background */
+}
+
+QPushButton#button50:hover, QPushButton#buttonSwap:hover, QPushButton#submit:hover {
+    background-color: rgb(120, 110, 200);
+}
+
+/* RadioButtons */
+QRadioButton {
+    font-size: 12pt;
+    color: rgb(50, 30, 100); /* Dark purple */
+}
+
+QRadioButton::indicator {
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgb(104, 90, 180); /* Purple border for circle */
+    border-radius: 10px;
+    background-color: white;
+}
+
+QRadioButton::indicator:checked {
+    background-color: rgb(104, 90, 180); /* Purple circle when checked */
+}
+
+/* ProgressBar */
+QProgressBar {
+    border: 1px solid rgb(104, 90, 180); /* Purple border */
+    border-radius: 5px;
+    background-color: rgb(240, 240, 250); /* Light purple background */
+    height: 20px;
+}
+
+QProgressBar::chunk {
+    background-color: rgb(104, 90, 180); /* Purple progress chunk */
+    width: 1px;
+}
+
+/* QTableWidget - Leaderboard Table */
+QTableWidget {
+    background-color: rgb(255, 255, 255); /* White background */
+    border: 1px solid rgb(104, 90, 180); /* Purple border */
+    gridline-color: rgb(104, 90, 180); /* Purple grid lines */
+    font-size: 12pt;
+    color: rgb(50, 30, 100); /* Dark purple text */
+}
+
+/* Table header styling */
+QTableWidget::horizontalHeader {
+    background-color: rgb(104, 90, 180); /* Purple header */
+    color: white;
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+/* Specific QPushButton inside 'BoardWindow' */
+QPushButton#closeButton {
+    background-color: rgb(104, 90, 180); /* Purple background */
+    color: white;
+    font-size: 12pt;
+    padding: 6px 12px;
+    border-radius: 5px;
+}
+
+/* Hover and pressed effect for 'closeButton' */
+QPushButton#closeButton:hover {
+    background-color: rgb(120, 110, 200);
+}
+
+QPushButton#closeButton:pressed {
+    background-color: rgb(80, 60, 160);
+}
+
+/* MenuBar styling */
+QMenuBar {
+    background-color: rgb(104, 90, 180); /* Purple menu bar */
+    color: white;
+}
+
+/* StatusBar styling */
+QStatusBar {
+    background-color: rgb(240, 240, 250); /* Light purple */
+    color: rgb(50, 30, 100); /* Dark purple text */
+}
+
+/* Score label styling */
+QLabel#scoreLabel, QLabel#rankLabel {
+    font-size: 14pt;
+    color: rgb(50, 30, 100); /* Dark purple */
+}
+/* Time Label styling */
+QLabel#timeLabel {
+    font-size: 12pt;
+    color: rgb(50, 30, 100); /* Dark purple */
+    font-weight: bold;
+    background-color: rgb(240, 240, 250); /* Light purple background */
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+</string>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QPushButton" name="procedeButton">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>340</y>
+       <width>141</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>OK</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>90</y>
+       <width>611</width>
+       <height>181</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <item>
+         <widget class="QLabel" name="label">
+          <property name="font">
+           <font>
+            <pointsize>14</pointsize>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="midLineWidth">
+           <number>6</number>
+          </property>
+          <property name="text">
+           <string> Select Topic </string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="comboBox"/>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QLabel" name="label_2">
+          <property name="font">
+           <font>
+            <pointsize>14</pointsize>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="text">
+           <string>Select Question Type</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <widget class="QRadioButton" name="MCQButton">
+            <property name="text">
+             <string>MCQ</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QRadioButton" name="OneWordButton">
+            <property name="text">
+             <string>OneWord Q</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

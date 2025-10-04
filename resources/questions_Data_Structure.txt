@@ -1,0 +1,10 @@
+Which data structure follows the LIFO principle?,Queue,Stack,Linked List,Heap,Stack
+What is the time complexity of searching in an unsorted array?,O(1),O(log n),O(n),O(n log n),O(n)
+Which data structure is best for implementing recursion?,Queue,Stack,Hash Table,Heap,Stack
+What is the best case time complexity of QuickSort?,O(n²),O(n log n),O(n),O(log n),O(n log n)
+Which data structure is most efficient for implementing a priority queue?,Array,Linked List,Heap,Stack,Heap
+What is the worst-case time complexity of searching in a binary search tree (BST)?,O(log n),O(n),O(1),O(n log n),O(n)
+Which data structure is best for finding the shortest path in a graph using Dijkstra’s Algorithm?,Stack,Queue,Priority Queue,Linked List,Priority Queue
+What is the number of edges in a complete graph with ‘n’ vertices?,n,n(n-1)/2,n²,2n,n(n-1)/2
+Which of the following sorting algorithms is not based on comparisons?,Merge Sort,Quick Sort,Heap Sort,Radix Sort,Radix Sort
+Which of the following data structures can be used to implement a graph?,Adjacency Matrix,Adjacency List,Both 1 and 2,None of the above,Both 1 and 2

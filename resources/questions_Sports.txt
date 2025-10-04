@@ -1,0 +1,10 @@
+How many players are there in a standard soccer team?,9,10,11,12,11
+In which sport is a shuttlecock used?,Tennis,Cricket,Badminton,Table Tennis,Badminton
+How many rings are there in the Olympic logo?,3,4,5,6,5
+Which country won the 2018 FIFA World Cup?,Germany,France,Brazil,Argentina,France
+What is the maximum score in a single frame of bowling?,100,200,300,400,300
+Which sport uses the term "home run"?,Cricket,Baseball,Tennis,Rugby,Baseball
+Who has won the most Grand Slam titles in tennis history?,Roger Federer,Rafael Nadal,Serena Williams,Novak Djokovic,Novak Djokovic
+How long is a marathon?,30 km,35 km,40 km,42.195 km,42.195 km
+What is the national sport of Japan?,Sumo Wrestling,Karate,Baseball,Football,Sumo Wrestling
+What is the term for a score of zero in tennis?,Love,Nil,Void,Blank,Love

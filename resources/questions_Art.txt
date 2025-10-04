@@ -1,0 +1,10 @@
+Who painted the Starry Night?,Leonardo da Vinci,Claude Monet,Vincent van Gogh,Pablo Picasso,Vincent van Gogh
+What is the primary ingredient in oil paints?,Water,Oil,Alcohol,Turpentine,Oil
+Which famous artist cut off his own ear?,Michelangelo,Rembrandt,Vincent van Gogh,Pablo Picasso,Vincent van Gogh
+What art movement is Salvador Dalí associated with?,Surrealism,Cubism,Impressionism,Realism,Surrealism
+What is the technique of painting on wet plaster called?,Fresco,Tempera,Encaustic,Glazing,Fresco
+Who sculpted David?,Michelangelo,Donatello,Leonardo da Vinci,Raphael,Michelangelo
+What is the "Mona Lisa" famous for?,Its size,Its mystery,Its color,Its background,Its mystery
+What type of art involves arranging pieces of colored glass?,Fresco,Mosaic,Collage,Graffiti,Mosaic
+Which artist is known for his blue period paintings?,Claude Monet,Pablo Picasso,Edvard Munch,Jackson Pollock,Pablo Picasso
+What is the primary medium used in watercolor painting?,Oil,Water,Alcohol,Chalk,Water

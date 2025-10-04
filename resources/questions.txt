@@ -1,0 +1,10 @@
+What is encapsulation in OOP?,Hiding data,Copying data,Deleting data,Modifying data,Hiding data
+What is the worst-case time complexity of quicksort?,O(n),O(log n),O(n²),O(n log n),O(n²)
+What is a hash table used for?,Sorting,Searching,Indexing,Mapping,Mapping
+Which one is the hammer of the thunder god Thor in Norse mythology?,Gungnir,Mjölnir,Excalibur,Anduril,Mjölnir
+Which chess piece can only move diagonally?,King,Queen,Bishop,Knight,Bishop
+Which is the only mammal capable of true flight?,Penguin,Flying Squirrel,Bat,Kangaroo,Bat
+Which of the following empires had no written language?,Incan,Aztec,Egyptian,Roman,Incan
+What is the sum of the interior angles of a pentagon?,360,540,720,900,540
+Which is Pixar’s first feature-length movie?,A Bug's Life,Toy Story,Finding Nemo,Monsters Inc.,Toy Story
+Which football team is known as ‘The Red Devils’?,Liverpool,Manchester United,Arsenal,Bayern Munich,Manchester United
